@@ -1,0 +1,29 @@
+/*******************************
+flexbox centering
+*******************************/
+.vcenter{
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex-grid{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.centerCol{
+    margin: auto;
+}
+/*******************************
+error message
+*******************************/
+.err{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.err h1, img{
+    display: inline;
+}
