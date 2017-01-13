@@ -12,7 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="/wdd_site_view/css/wdd_site_style.css">
     </head>
     <body class="vcenter">
-        <div class="flex-grid">
+        <div class="flex-grid more">
             <div class="centerCol err">
                 <img class="inline" src="/wdd_site_view/error_pages/err.png" src="error 500" width="30">
                 <h1 class="inline">Error 500</h1><br>

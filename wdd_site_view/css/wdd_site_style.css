@@ -1,29 +1,34 @@
-/*******************************
-flexbox centering
-*******************************/
-.vcenter{
-    height: 100%;
-    overflow: hidden;
-}
+/****************************
+Simple grid with Flexbox
+****************************/
+.flex-grid {
+  display: flex; }
 
-.flex-grid{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-}
+.col {
+  flex: 1; }
 
-.centerCol{
-    margin: auto;
-}
+/****************************
+For centering stuff
+****************************/
+.center {
+  text-align: center; }
+
+.centerCol {
+  margin: auto; }
+
 /*******************************
 error message
 *******************************/
-.err{
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-}
+.err {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px; }
 
-.err h1, img{
-    display: inline;
-}
+.err h1, img {
+  display: inline; }
+
+.more {
+  flex-direction: row;
+  height: 100%; }
+
+/*# sourceMappingURL=wdd_site_style.css.map */
